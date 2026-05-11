@@ -1,3 +1,9 @@
+/* ══════════════════════════════════════════
+   RWEBDESIGN — Main Stylesheet
+   Font: Poppins
+   Colors: #F57112 | #F44111 | #1E2021 | #FFFFFF
+══════════════════════════════════════════ */
+
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -65,7 +71,7 @@ nav {
 
 .nav-links a {
   text-decoration: none;
-  font-size: 0.92rem;
+  font-size: 1.05rem;
   font-weight: 400;
   color: rgba(255,255,255,0.80);
   position: relative;
@@ -91,7 +97,7 @@ nav {
   color: var(--white);
   border: none;
   font-family: 'Poppins', sans-serif;
-  font-size: 0.90rem;
+  font-size: 1.02rem;
   font-weight: 500;
   cursor: pointer;
   text-decoration: none;
@@ -149,7 +155,7 @@ nav {
 .hero-content h1 .orange { color: var(--orange); }
 
 .hero-content p {
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   color: rgba(255,255,255,0.78);
   line-height: 1.7;
   max-width: 560px;
@@ -162,7 +168,7 @@ nav {
   background: var(--orange);
   color: var(--white);
   font-family: 'Poppins', sans-serif;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   font-weight: 600;
   text-decoration: none;
   transition: background 0.2s;
@@ -183,7 +189,7 @@ nav {
 }
 
 .legacy-quote {
-  font-size: clamp(1.4rem, 2.4vw, 2rem);
+  font-size: clamp(1.6rem, 2.6vw, 2.3rem);
   font-weight: 800;
   line-height: 1.35;
   color: var(--orange);
@@ -199,7 +205,7 @@ nav {
 }
 
 .legacy-body {
-  font-size: 0.87rem;
+  font-size: 1.0rem;
   color: rgba(255,255,255,0.65);
   line-height: 1.9;
   margin-bottom: 26px;
@@ -216,7 +222,7 @@ nav {
   gap: 6px;
   text-decoration: underline;
   color: rgba(255,255,255,0.65);
-  font-size: 0.88rem;
+  font-size: 1.0rem;
   cursor: pointer;
   transition: color 0.2s;
 }
@@ -253,14 +259,14 @@ nav {
 }
 
 .services-top h2 {
-  font-size: clamp(1.6rem, 2.4vw, 2.2rem);
+  font-size: clamp(1.9rem, 2.6vw, 2.6rem);
   font-weight: 800;
   color: var(--orange);
   margin-bottom: 12px;
 }
 
 .services-top p {
-  font-size: 0.87rem;
+  font-size: 1.0rem;
   color: rgba(255,255,255,0.60);
   max-width: 560px;
   line-height: 1.7;
@@ -276,7 +282,7 @@ nav {
   align-items: center;
   gap: 5px;
   color: rgba(255,255,255,0.65);
-  font-size: 0.87rem;
+  font-size: 1.0rem;
   text-decoration: underline;
   cursor: pointer;
   flex-shrink: 0;
@@ -346,7 +352,7 @@ nav {
   bottom: 0; left: 0; right: 0;
   padding: 18px 20px;
   background: linear-gradient(transparent, rgba(0,0,0,0.88));
-  font-size: 0.82rem;
+  font-size: 0.95rem;
   font-weight: 700;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -370,7 +376,7 @@ nav {
 .svc-slide:hover .svc-label { opacity: 0; }
 
 .svc-overlay-title {
-  font-size: 0.82rem;
+  font-size: 0.95rem;
   font-weight: 800;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -379,7 +385,7 @@ nav {
 }
 
 .svc-overlay-desc {
-  font-size: 0.82rem;
+  font-size: 0.95rem;
   color: rgba(255,255,255,0.85);
   line-height: 1.6;
   margin-bottom: 14px;
@@ -389,7 +395,7 @@ nav {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  font-size: 0.8rem;
+  font-size: 0.93rem;
   color: var(--white);
   text-decoration: underline;
   cursor: pointer;
@@ -430,14 +436,14 @@ nav {
 }
 
 .proj-header h2 {
-  font-size: clamp(1.8rem, 2.8vw, 2.4rem);
+  font-size: clamp(2.1rem, 3vw, 2.8rem);
   font-weight: 800;
   color: var(--orange);
   margin-bottom: 14px;
 }
 
 .proj-header p {
-  font-size: 0.87rem;
+  font-size: 1.0rem;
   color: rgba(255,255,255,0.55);
   max-width: 660px;
   margin: 0 auto;
@@ -469,7 +475,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 0.80rem;
+  font-size: 0.94rem;
   color: rgba(255,255,255,0.55);
   letter-spacing: 0.5px;
 }
@@ -537,7 +543,7 @@ nav {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
-  font-size: 0.72rem;
+  font-size: 0.85rem;
   color: rgba(255,255,255,0.45);
   margin-bottom: 10px;
 }
@@ -553,7 +559,7 @@ nav {
   padding: 4px 14px;
   background: var(--orange);
   color: var(--white);
-  font-size: 0.72rem;
+  font-size: 0.85rem;
   font-weight: 700;
   border-radius: 50px;
   margin-bottom: 10px;
@@ -562,7 +568,7 @@ nav {
 .proj-tag.retail { background: #e65c00; }
 
 .proj-card-body h3 {
-  font-size: 0.93rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: var(--orange);
   margin-bottom: 6px;
@@ -570,7 +576,7 @@ nav {
 }
 
 .proj-card-body p {
-  font-size: 0.77rem;
+  font-size: 0.92rem;
   color: rgba(255,255,255,0.50);
   line-height: 1.55;
   margin-bottom: 14px;
@@ -580,7 +586,7 @@ nav {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  font-size: 0.78rem;
+  font-size: 0.92rem;
   color: rgba(255,255,255,0.60);
   text-decoration: underline;
   cursor: pointer;
@@ -642,14 +648,14 @@ nav {
 }
 
 .cta-right h2 {
-  font-size: clamp(1.6rem, 2.5vw, 2.6rem);
+  font-size: clamp(1.9rem, 2.8vw, 3rem);
   line-height: 1.2;
   font-weight: 800;
   margin-bottom: 16px;
 }
 
 .cta-right p {
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   line-height: 1.75;
   margin-bottom: 28px;
   color: rgba(255,255,255,0.92);
@@ -665,7 +671,7 @@ nav {
   padding: 16px 32px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  font-size: 0.92rem;
+  font-size: 1.05rem;
   align-self: flex-start;
   transition: 0.25s ease;
 }
@@ -693,14 +699,14 @@ nav {
 }
 
 .gallery-top h2 {
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   font-weight: 800;
   color: var(--orange);
   margin-bottom: 6px;
 }
 
 .gallery-top p {
-  font-size: 0.84rem;
+  font-size: 1.0rem;
   color: rgba(255,255,255,0.48);
 }
 
@@ -785,21 +791,21 @@ footer {
 }
 
 .f-brand {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 800;
   color: var(--orange);
   letter-spacing: 1px;
 }
 
 .f-tagline {
-  font-size: 0.83rem;
+  font-size: 0.98rem;
   color: rgba(255,255,255,0.50);
 }
 
 .footer-newsletter { min-width: 360px; }
 
 .nl-label {
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: 700;
   color: var(--orange);
   margin-bottom: 14px;
@@ -820,7 +826,7 @@ footer {
   border: none;
   color: #fff;
   font-family: 'Poppins', sans-serif;
-  font-size: 0.84rem;
+  font-size: 0.98rem;
   outline: none;
 }
 
@@ -832,7 +838,7 @@ footer {
   color: #fff;
   border: none;
   font-family: 'Poppins', sans-serif;
-  font-size: 0.84rem;
+  font-size: 0.98rem;
   font-weight: 600;
   cursor: pointer;
   transition: background 0.2s;
@@ -849,7 +855,7 @@ footer {
 }
 
 .f-col h4 {
-  font-size: 0.84rem;
+  font-size: 0.98rem;
   font-weight: 700;
   color: var(--orange);
   text-transform: uppercase;
@@ -870,7 +876,7 @@ footer {
 }
 
 .f-col ul a {
-  font-size: 0.82rem;
+  font-size: 0.96rem;
   color: rgba(255,255,255,0.50);
   text-decoration: none;
   transition: color 0.2s;
@@ -902,7 +908,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 0.82rem;
+  font-size: 0.96rem;
   color: rgba(255,255,255,0.50);
   text-decoration: none;
   transition: color 0.2s;
@@ -934,7 +940,7 @@ footer {
   border-top: 1px solid rgba(255,255,255,0.08);
   padding: 22px 0;
   text-align: center;
-  font-size: 0.78rem;
+  font-size: 0.92rem;
   color: rgba(255,255,255,0.35);
 }
 
